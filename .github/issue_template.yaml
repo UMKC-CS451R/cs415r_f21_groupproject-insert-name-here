@@ -1,0 +1,20 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+  - type: input
+    id: task
+    attributes:
+      label: Task
+      description: title of the task
+      placeholder: fix front page
+    validations:
+      required: true
+  - type: textarea
+    id: Further-Description
+    attributes:
+      label: What has to be done
+      description: be descriptive as possible
+      placeholder: ensure that the front page button is dynamic
+    validations:
+      required: true
